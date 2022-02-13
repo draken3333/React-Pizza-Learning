@@ -22,6 +22,7 @@ const Categories = React.memo(function Categories({activeCategory, selectActiveT
         <li
           className={activeCategory === null ? "active" : " "}
           onClick={() => selectActiveTitle(null)}
+          
         >
           Все
         </li>
